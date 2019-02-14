@@ -1,0 +1,392 @@
+body{
+	background: rgb(255,227,207);
+	overflow: hidden;
+}
+
+.jnktgred{
+	position: fixed;
+	top: 50.25%;
+	left: 50.25%;
+	transform: translate(-50%,-50%);
+	opacity: 0.25;
+	z-index: 4;
+}
+
+.jnktgblue{
+	cursor: pointer;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	opacity: 0.25;
+	z-index: 4;
+}
+
+.list{
+	position: fixed;
+	z-index: 4;
+}
+
+.listred{
+	opacity: 0;
+	left: 5.6%;
+}
+
+.listblue{
+	cursor: pointer;
+	opacity: 0;
+	left: 5.4%;
+}
+
+.galleryBLUE {
+    top: 45.4%;
+    width: 20%;
+    height: 10%;
+}
+
+.galleryRED {
+    top: 45.6%;
+    width: 20%;
+    height: 10%;
+}
+
+.comixBLUE{
+	top: 55.4%;
+	width: 20%;
+	height: 10%;
+}
+
+.comixRED {
+    top: 55.6%;
+    width: 20%;
+    height: 10%;
+}
+
+.gamesBLUE {
+    top: 65.4%;
+    width: 20%;
+    height: 10%;
+}
+
+.gamesRED {
+    top: 65.6%;
+    width: 20%;
+    height: 10%;
+}
+
+.storeBLUE {
+    top: 75.4%;
+    width: 20%;
+    height: 10%;
+}
+
+.storeRED {
+    top: 75.6%;
+    width: 20%;
+    height: 10%;
+}
+
+.aboutBLUE {
+    top: 85.4%;
+    width: 20%;
+    height: 10%;
+}
+
+.aboutRED {
+    top: 85.6%;
+    width: 20%;
+    height: 10%;
+}
+
+#gallerycontent{
+	opacity: 0;
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 0px;
+	text-align: center;
+	z-index: 3;
+}
+
+.gallerytable{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+td{
+	width: 10%;
+	height: 10%;
+}
+
+th{
+	width: 10%;
+	height: 10%;
+	background-color: rgba(255,255,255,0.25);
+	background-image: url('Backgrounds/rgbbarsblank.png');
+	background-size: 50px 50px;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 2px;
+	border-color: rgba(0,0,0,0);
+	font-size: 20px;
+	color: rgba(225,215,205,1);
+	text-shadow:  0 0 1px grey, -1px -1px 1px rgb(0,127,127, 1), 1px 1px 1px rgb(255,0,0, 1);
+	opacity: 0;
+}
+
+.gallerypic{
+	cursor: pointer;
+	width: 100px;
+	height: 100px;
+	background-image: url('Backgrounds/perlin.gif');
+	background-size: 25px 25px;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 5px;
+	border-color: rgba(0,0,0,0);
+}
+
+#comixcontent{
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 0px;
+	text-align: center;
+	z-index: 2;
+}
+
+.comixtable{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.comixpic{
+	cursor: pointer;
+	width: 100px;
+	height: 100px;
+	background-image: url('Backgrounds/perlin.gif');
+	background-size: 25px 25px;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 5px;
+	border-color: rgba(0,0,0,0);
+}
+
+.gamescontent{
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 0px;
+	text-align: center;
+	z-index: 1;
+}
+
+.gamestable{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.gamespic{
+	cursor: pointer;
+	width: 100px;
+	height: 100px;
+	background-image: url('Backgrounds/perlin.gif');
+	background-size: 25px 25px;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 5px;
+	border-color: rgba(0,0,0,0);
+}
+
+.storecontent{
+	position: absolute;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.storepic{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+th.abouttitle{
+	opacity: 1;
+}
+
+th.aboutdesc{
+	opacity: 1;
+}
+
+td.aboutdesc{
+	text-align: justify;
+	opacity: 1;
+	background-image: url('Backgrounds/rgbbarsblank.png');
+	background-size: 50px 50px;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 2px;
+	border-color: rgba(0,0,0,0);
+	font-size: 16px;
+	color: rgba(225,215,205,1);
+	text-shadow:  0 0 1px grey, -1px -1px 1px rgb(0,127,127, 1), 1px 1px 1px rgb(255,0,0, 1);
+}
+
+.aboutcontent{
+	opacity: 0;
+	position: absolute;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+	left: 0%;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 0px;
+	text-align: center;
+	z-index: 1;
+}
+
+.abouttable{
+	position: absolute;
+	top: 0%;
+	width: 60%;
+	height: 100%;
+	left: 20%;
+}
+
+.aboutpic{
+	position: absolute;
+	top: 30%;
+	left: 1.5%;
+	width: 200px;
+	height: 200px;
+	background-image: url('Backgrounds/perlin.gif');
+	background-size: 25px 25px;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 5px;
+	border-color: rgba(0,0,0,0);
+}
+
+#contact{
+	cursor: pointer;
+}
+
+.jnktgfaceREDM{
+	opacity: 0;
+	position: absolute;
+	top: 1%;
+	width: 42.5%;
+	height: 100%;
+	left: 28%;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 0px;
+}
+
+.jnktgfaceBLUEM{
+	opacity: 0;
+	position: absolute;
+	top: 0%;
+	width: 42.5%;
+	height: 100%;
+	left: 27%;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 0px;
+}
+
+.tvbarsimg{
+	opacity: 1;
+	position: absolute;
+	top: 1%;
+	width: 99%;
+	height: 98%;
+	left: 0.5%;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 0px;
+}
+
+.news{
+	opacity: 0.25;
+	position: absolute;
+	top: 50%;
+	left: 50%; 
+	transform: translate(-50%, -35%);
+	width: 900px;
+	height: 500px;
+	font-family: 'Roboto';
+	background-color: rgb(27,20,17,0.5);
+	background-image: url('Backgrounds/perlin.gif');
+	background-size: 100px 100px;
+	border-style: solid;
+	border-radius: 25px;
+	border-width: 0px;
+}
+
+.newstext{
+	position: absolute;
+	top: 88%;
+	left: 57.5%;
+	font-family: 'Raleway';
+	font-size: 40px;
+    text-align: right;
+	color: rgb(255,227,207);
+	text-shadow:  0 0 2px grey, -2px -2px 2px rgb(0,127,127, 0.5), 2px 2px 2px rgb(255,0,0, 0.5);
+}
+
+.face{
+	position: absolute;
+	height: 55%;
+	width: 20%;
+	right: 1%;
+}
+
+.jnktgfaceRED{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+}
+
+.jnktgsurpRED {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.jnktgfaceBLUE {
+	cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+
+.jnktgsurpBLUE {
+	cursor: pointer;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
