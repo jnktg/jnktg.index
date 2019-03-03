@@ -274,11 +274,14 @@ $(document).ready(() => {
             });
 
             $ow.click(()=>{
-                if (owpicisopen == true){
-                    OWPicExit();
-                };
                 if (gallery == true&&owpicisopen == false){
                     OWPicOpen();
+                    return;
+                };
+                if (gallery == true&&owpicisopen == true){
+                    OWPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -295,8 +298,14 @@ $(document).ready(() => {
             });
 
             $cbb.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&cbbpicisopen == false){
                     CBBPicOpen();
+                    return;
+                };
+                if (gallery == true&&cbbpicisopen == true){
+                    CBBPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -313,8 +322,14 @@ $(document).ready(() => {
             });
 
             $pan.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&panpicisopen == false){
                     PanPicOpen();
+                    return;
+                };
+                if (gallery == true&&panpicisopen == true){
+                    PanPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -331,8 +346,14 @@ $(document).ready(() => {
             });
 
             $pen.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&penpicisopen == false){
                     PenPicOpen();
+                    return;
+                };
+                if (gallery == true&&penpicisopen == true){
+                    PenPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -349,8 +370,14 @@ $(document).ready(() => {
             });
 
             $shi.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&shipicisopen == false){
                     ShiPicOpen();
+                    return;
+                };
+                if (gallery == true&&shipicisopen == true){
+                    ShiPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -367,8 +394,14 @@ $(document).ready(() => {
             });
 
             $elf.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&elfpicisopen == false){
                     ElfPicOpen();
+                    return;
+                };
+                if (gallery == true&&elfpicisopen == true){
+                    ElfPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -385,8 +418,14 @@ $(document).ready(() => {
             });
 
             $clay.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&claypicisopen == false){
                     ClayPicOpen();
+                    return;
+                };
+                if (gallery == true&&claypicisopen == true){
+                    ClayPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -403,8 +442,14 @@ $(document).ready(() => {
             });
 
             $ww.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&wwpicisopen == false){
                     WWPicOpen();
+                    return;
+                };
+                if (gallery == true&&wwpicisopen == true){
+                    WWPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -421,8 +466,14 @@ $(document).ready(() => {
             });
 
             $sun.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&sbpicisopen == false){
                     SBPicOpen();
+                    return;
+                };
+                if (gallery == true&&sbpicisopen == true){
+                    SBPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -439,8 +490,14 @@ $(document).ready(() => {
             });
 
             $ftn.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&ftnpicisopen == false){
                     FtnPicOpen();
+                    return;
+                };
+                if (gallery == true&&ftnpicisopen == true){
+                    FtnPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -457,8 +514,14 @@ $(document).ready(() => {
             });
 
             $sm.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&smpicisopen == false){
                     SMPicOpen();
+                    return;
+                };
+                if (gallery == true&&smpicisopen == true){
+                    SMPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -475,8 +538,14 @@ $(document).ready(() => {
             });
 
             $fm.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&fmpicisopen == false){
                     FMPicOpen();
+                    return;
+                };
+                if (gallery == true&&fmpicisopen == true){
+                    FMPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -493,8 +562,14 @@ $(document).ready(() => {
             });
 
             $rgbp.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&rgbppicisopen == false){
                     RGBPPicOpen();
+                    return;
+                };
+                if (gallery == true&&rgbppicisopen == true){
+                    RGBPPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -511,8 +586,14 @@ $(document).ready(() => {
             });
 
             $is.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&ispicisopen == false){
                     ISPicOpen();
+                    return;
+                };
+                if (gallery == true&&ispicisopen == true){
+                    ISPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -529,8 +610,14 @@ $(document).ready(() => {
             });
 
             $d1.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&d1picisopen == false){
                     D1PicOpen();
+                    return;
+                };
+                if (gallery == true&&d1picisopen == true){
+                    D1PicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -547,8 +634,14 @@ $(document).ready(() => {
             });
 
             $d2.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&d2picisopen == false){
                     D2PicOpen();
+                    return;
+                };
+                if (gallery == true&&d2picisopen == true){
+                    D2PicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -565,8 +658,14 @@ $(document).ready(() => {
             });
 
             $d3.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&d3picisopen == false){
                     D3PicOpen();
+                    return;
+                };
+                if (gallery == true&&d3picisopen == true){
+                    D3PicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -583,8 +682,14 @@ $(document).ready(() => {
             });
 
             $d4.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&d4picisopen == false){
                     D4PicOpen();
+                    return;
+                };
+                if (gallery == true&&d4picisopen == true){
+                    D4PicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -601,8 +706,14 @@ $(document).ready(() => {
             });
 
             $d5.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&d5picisopen == false){
                     D5PicOpen();
+                    return;
+                };
+                if (gallery == true&&d5picisopen == true){
+                    D5PicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -619,8 +730,14 @@ $(document).ready(() => {
             });
 
             $lu.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&lupicisopen == false){
                     LuPicOpen();
+                    return;
+                };
+                if (gallery == true&&lupicisopen == true){
+                    LuPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -637,8 +754,14 @@ $(document).ready(() => {
             });
 
             $cat.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&catpicisopen == false){
                     CatPicOpen();
+                    return;
+                };
+                if (gallery == true&&catpicisopen == true){
+                    CatPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -655,8 +778,14 @@ $(document).ready(() => {
             });
 
             $cathead.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&bropicisopen == false){
                     BroPicOpen();
+                    return;
+                };
+                if (gallery == true&&bropicisopen == true){
+                    BroPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -673,8 +802,14 @@ $(document).ready(() => {
             });
 
             $head.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&sibpicisopen == false){
                     SibPicOpen();
+                    return;
+                };
+                if (gallery == true&&sibpicisopen == true){
+                    SibPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -691,8 +826,14 @@ $(document).ready(() => {
             });
 
             $sibr.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&sibrpicisopen == false){
                     SibrPicOpen();
+                    return;
+                };
+                if (gallery == true&&sibrpicisopen == true){
+                    SibrPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -709,8 +850,14 @@ $(document).ready(() => {
             });
 
             $ntb.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&ntbpicisopen == false){
                     NtbPicOpen();
+                    return;
+                };
+                if (gallery == true&&ntbpicisopen == true){
+                    NtbPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -727,8 +874,14 @@ $(document).ready(() => {
             });
 
             $skb.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&skbpicisopen == false){
                     SkbPicOpen();
+                    return;
+                };
+                if (gallery == true&&skbpicisopen == true){
+                    SkbPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -745,8 +898,14 @@ $(document).ready(() => {
             });
 
             $bcc.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&bccpicisopen == false){
                     BCCPicOpen();
+                    return;
+                };
+                if (gallery == true&&bccpicisopen == true){
+                    BCCPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -763,8 +922,14 @@ $(document).ready(() => {
             });
 
             $cwc.click(()=>{
-                if (gallery == true){
+                if (gallery == true&&cwcpicisopen == false){
                     CWCPicOpen();
+                    return;
+                };
+                if (gallery == true&&cwcpicisopen == true){
+                    CWCPicExit();
+                    LoadGallery();
+                    return;
                 };
             });
 
@@ -1497,6 +1662,7 @@ $(document).ready(() => {
 				width: '150px',
 				height: '150px',
 			}, 150);            
+            LoadGallery();
             owpicisopen = false;
             document.getElementById("show").innerHTML = "what's playing?";
         };
