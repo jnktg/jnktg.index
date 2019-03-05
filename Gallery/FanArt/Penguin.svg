@@ -13,6 +13,9 @@
       <stop offset="0" stop-color="#FFFFFF"/>
       <stop offset="1" stop-color="#FFDD70"/>
     </linearGradient>
+    <clipPath id="Clip_1">
+      <path d="M200.91,0 L300.91,0 L300.91,45 L200.91,45 z"/>
+    </clipPath>
   </defs>
   <g id="Layer_1">
     <path d="M54.628,345.878 C25.364,330.873 0,367.652 0,380.447 C0,395.622 0,450 0,450 C0,450 61.55,359.964 54.628,345.878 z" fill="#333139"/>
@@ -33,5 +36,6 @@
     <path d="M46.821,306.508 C54.104,311.206 61.972,369.496 59.599,378.623 C57.227,387.75 39.801,359.948 37.669,354.195 C35.537,348.443 39.539,301.81 46.821,306.508 z" fill="url(#Gradient_1)"/>
     <path d="M241.623,302.566 C233.079,307.616 219.416,377.07 221.311,388.242 C223.207,399.414 245.029,367.414 247.895,360.671 C250.76,353.927 250.166,297.516 241.623,302.566 z" fill="url(#Gradient_2)"/>
     <path d="M0,450 C-0.348,419.211 -3.953,424.106 45.395,367.652 C80.923,405.343 195.66,397.975 239.051,375.303 C266.424,416.679 305.482,422.172 300,450 C287.195,452.128 45.979,450.038 0,450 z" fill="#FFFFFF"/>
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAAAtCAIAAADX11mnAAAAAXNSR0IArs4c6QAAAJ5JREFUaAXt0rENACAQAzFg/50fsQHXO/VVVvbMLPsTOH+Z6gnACj+ABSsIhNSzYAWBkHoWrCAQUs+CFQRC6lmwgkBIPQtWEAipZ8EKAiH1LFhBIKSeBSsIhNSzYAWBkHoWrCAQUs+CFQRC6lmwgkBIPQtWEAipZ8EKAiH1LFhBIKSeBSsIhNSzYAWBkHoWrCAQUs+CFQRC6lmwgkBIL6HyA1enNcz7AAAAAElFTkSuQmCC" opacity="1" x="200.91" y="0" width="100" height="45" preserveAspectRatio="xMidYMid" clip-path="url(#Clip_1)"/>
   </g>
 </svg>
