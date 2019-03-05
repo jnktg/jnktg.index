@@ -98,6 +98,17 @@ body{
     height: 10%;
 }
 
+.copyright {
+	position: absolute;
+	bottom: 1%;
+	left: 5%;
+	width: 150px;
+	height: 75px;
+	font-family: 'Roboto';
+	color: rgba(225,215,205,1);
+	text-shadow:  0 0 1px grey, -1px -1px 1px rgb(0,127,127, 1), 1px 1px 1px rgb(255,0,0, 1);
+}
+
 #gallerycontent{
 	opacity: 0;
 	position: absolute;
@@ -127,7 +138,7 @@ th{
 	width: 10%;
 	height: 10%;
 	background-color: rgba(255,255,255,0.25);
-	background-image: url('backgrounds/rgbbarsblank.png');
+	background-image: url('Backgrounds/rgbbarsblank.png');
 	background-size: 50px 50px;
 	border-style: solid;
 	border-radius: 25px;
@@ -143,7 +154,7 @@ th{
 	cursor: pointer;
 	width: 100px;
 	height: 100px;
-	background-image: url('backgrounds/perlin.gif');
+	background-image: url('Backgrounds/perlin.gif');
 	background-size: 25px 25px;
 	border-style: solid;
 	border-radius: 25px;
@@ -175,7 +186,7 @@ th{
 	cursor: pointer;
 	width: 100px;
 	height: 100px;
-	background-image: url('backgrounds/perlin.gif');
+	background-image: url('Backgrounds/perlin.gif');
 	background-size: 25px 25px;
 	border-style: solid;
 	border-radius: 25px;
@@ -207,7 +218,7 @@ th{
 	cursor: pointer;
 	width: 100px;
 	height: 100px;
-	background-image: url('backgrounds/perlin.gif');
+	background-image: url('Backgrounds/perlin.gif');
 	background-size: 25px 25px;
 	border-style: solid;
 	border-radius: 25px;
@@ -239,7 +250,7 @@ th.aboutdesc{
 td.aboutdesc{
 	text-align: justify;
 	opacity: 1;
-	background-image: url('backgrounds/rgbbarsblank.png');
+	background-image: url('Backgrounds/rgbbarsblank.png');
 	background-size: 50px 50px;
 	border-style: solid;
 	border-radius: 25px;
@@ -278,7 +289,7 @@ td.aboutdesc{
 	left: 1.5%;
 	width: 200px;
 	height: 200px;
-	background-image: url('backgrounds/perlin.gif');
+	background-image: url('Backgrounds/perlin.gif');
 	background-size: 25px 25px;
 	border-style: solid;
 	border-radius: 25px;
@@ -336,7 +347,7 @@ td.aboutdesc{
 	height: 500px;
 	font-family: 'Roboto';
 	background-color: rgb(27,20,17,0.5);
-	background-image: url('backgrounds/perlin.gif');
+	background-image: url('Backgrounds/perlin.gif');
 	background-size: 100px 100px;
 	border-style: solid;
 	border-radius: 25px;
